@@ -1,5 +1,5 @@
 =====================
-Django Wordpress Auth
+Django WordPress Auth
 =====================
 
 Introduction
@@ -11,21 +11,20 @@ things like login status and roles / capabilities.
 Requirements
 ============
 
-Python Dependencies :
-
- * `phpserialize`_
-
-Wordpress Dependencies :
-
  * `root Cookie`_
- * `Members`_
+ * `Members`_ (for roles and capabilities)
 
- .. _`phpserialize`: http://pypi.python.org/pypi/phpserialize
  .. _`root Cookie`: http://wordpress.org/extend/plugins/root-cookie/
  .. _`Members`: http://wordpress.org/extend/plugins/members/
 
 Installation
 ============
+
+First install `django-wordpress-auth`.
+
+.. sourcecode:: sh
+
+    pip install django-wordpress-auth
 
 Add your WordPress's auth keys and salts (found in wp-config.php) to your settings.py.
 
